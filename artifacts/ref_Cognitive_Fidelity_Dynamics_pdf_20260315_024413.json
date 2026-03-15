@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "framework": "Recognitive Equation Framework v1.0",
+    "timestamp": "2026-03-15T02:44:14.716137Z",
+    "document": "Cognitive_Fidelity_Dynamics.pdf"
+  },
+  "document_stats": {
+    "word_count": 361,
+    "page_count": 1,
+    "equation_count": 11,
+    "heading_count": 0,
+    "chunk_count": 2
+  },
+  "verdict": {
+    "label": "RECOGNITIVE",
+    "code": 1,
+    "overall": 0.8881,
+    "flags": {
+      "recognition_ok": true,
+      "fidelity_ok": true,
+      "hierarchy_ok": true,
+      "concision_ok": true
+    }
+  },
+  "operator_scores": {
+    "recognition": 0.9416,
+    "fidelity_dist": 0.0361,
+    "hierarchy": 0.0,
+    "concision": 1.0,
+    "egalitarian": 0.3981,
+    "affect": 0.3351,
+    "grounding": 0.1355,
+    "temporal_tau": 0.0
+  },
+  "radar": {
+    "Recognition": 0.9416,
+    "Fidelity": 0.9639,
+    "Egalitarian": 1.0,
+    "Concision": 1.0,
+    "Grounding": 0.1355
+  },
+  "quaternion_state": {
+    "initial": {
+      "psi0": 1.0,
+      "psi1": 0.0,
+      "psi2": 0.0,
+      "psi3": 0.0
+    },
+    "final": {
+      "psi0": 0.9212,
+      "psi1": -0.3736,
+      "psi2": -0.0043,
+      "psi3": -0.1085
+    },
+    "displacement": 0.397
+  },
+  "section_summary": [],
+  "chunk_detail": [
+    {
+      "idx": 0,
+      "recognition": 0.962,
+      "fidelity": 0.038,
+      "hierarchy": 0.0,
+      "concision": 1.0,
+      "egalitarian": 0.5382,
+      "temporal": 0.0,
+      "synthetic_p": 0.2602,
+      "preview": "The Fluid Architecture of Cognitive Possibility. Formalizing Consciousness via Quaternion Process Th"
+    },
+    {
+      "idx": 1,
+      "recognition": 0.9212,
+      "fidelity": 0.0342,
+      "hierarchy": 0.0,
+      "concision": 1.0,
+      "egalitarian": 0.2581,
+      "temporal": 0.0,
+      "synthetic_p": 0.4596,
+      "preview": "we must actively maintain Fidelity through critical reflection and unmediated reality.…"
+    }
+  ],
+  "comparative_note": "Document passes all four validity criteria (overall=0.888). It functions as a bounded recognitive operator — moving interpreter state toward coherence with minimal distortion."
+}
