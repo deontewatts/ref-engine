@@ -1,2 +1,8 @@
 # ref-engine
 REF — Recognitive Equation Framework for Agentic Validation.
+git init
+git checkout -b main
+git add .
+git commit -m "feat: bootstrap ref-engine repository"
+git remote add origin https://github.com/deontewatts/ref-engine.git
+git push -u origin main
