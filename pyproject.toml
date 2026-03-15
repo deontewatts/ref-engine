@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ref-engine"
+version = "1.0.0"
+description = "REF -- Recognitive Equation Framework for Agentic Validation"
+authors = [{ name = "Deonte Watts" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24.0",
+  "scipy>=1.10.0",
+  "pypdf>=3.0.0",
+  "rich>=13.0.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E221,E251,E272,E701,E127,E128,E231,E222,W503"

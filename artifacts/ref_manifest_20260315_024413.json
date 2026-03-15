@@ -1,0 +1,112 @@
+{
+  "run_id": "20260315_024413",
+  "timestamp": "2026-03-15T02:44:14.747160Z",
+  "files_input": 7,
+  "parse_failures": [],
+  "score_failures": [],
+  "documents_scored": 7,
+  "report_files": [
+    "/mnt/user-data/outputs/ref_AEON_Sentinel_Sovereign_Intelligence_2_p_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_Cognitive_Fidelity_Dynamics_pdf_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_JEA1-Cognitive-Architecture_pdf_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_Metaphysical_Cartography_pdf_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_Sovereign_AI_Immune_System_pdf_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_The-Spark-Node-Protocol-10_pdf_20260315_024413.json",
+    "/mnt/user-data/outputs/ref_The_Cosmic_Schematics_pdf_20260315_024413.json"
+  ],
+  "verdicts": {
+    "AEON_Sentinel_Sovereign_Intelligence_2.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8424,
+      "recognition": 0.9628,
+      "fidelity_dist": 0.0178,
+      "hierarchy": 0.25,
+      "concision": 0.9907
+    },
+    "Cognitive_Fidelity_Dynamics.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8881,
+      "recognition": 0.9416,
+      "fidelity_dist": 0.0361,
+      "hierarchy": 0.0,
+      "concision": 1.0
+    },
+    "JEA1-Cognitive-Architecture.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8047,
+      "recognition": 0.7337,
+      "fidelity_dist": 0.0163,
+      "hierarchy": 0.1071,
+      "concision": 0.9163
+    },
+    "Metaphysical_Cartography.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8625,
+      "recognition": 0.9454,
+      "fidelity_dist": 0.0324,
+      "hierarchy": 0.1767,
+      "concision": 1.0
+    },
+    "Sovereign_AI_Immune_System.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8702,
+      "recognition": 0.8851,
+      "fidelity_dist": 0.0447,
+      "hierarchy": 0.0,
+      "concision": 1.0
+    },
+    "The-Spark-Node-Protocol-10.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.865,
+      "recognition": 0.8439,
+      "fidelity_dist": 0.0153,
+      "hierarchy": 0.1526,
+      "concision": 0.9885
+    },
+    "The_Cosmic_Schematics.pdf": {
+      "verdict": "RECOGNITIVE",
+      "overall": 0.8765,
+      "recognition": 0.974,
+      "fidelity_dist": 0.0125,
+      "hierarchy": 0.1719,
+      "concision": 0.9894
+    }
+  },
+  "ranking": [
+    {
+      "document": "Cognitive_Fidelity_Dynamics.pdf",
+      "overall": 0.8881,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "The_Cosmic_Schematics.pdf",
+      "overall": 0.8765,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "Sovereign_AI_Immune_System.pdf",
+      "overall": 0.8702,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "The-Spark-Node-Protocol-10.pdf",
+      "overall": 0.865,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "Metaphysical_Cartography.pdf",
+      "overall": 0.8625,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "AEON_Sentinel_Sovereign_Intelligence_2.pdf",
+      "overall": 0.8424,
+      "verdict": "RECOGNITIVE"
+    },
+    {
+      "document": "JEA1-Cognitive-Architecture.pdf",
+      "overall": 0.8047,
+      "verdict": "RECOGNITIVE"
+    }
+  ]
+}

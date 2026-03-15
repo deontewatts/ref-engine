@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REF — REF — Corpus Analysis: Uploaded Documents</title>
+<style>
+  :root {
+    --bg:      #080c14;
+    --surface: #0d1117;
+    --panel:   #111520;
+    --border:  #1a2035;
+    --text:    #c8d0e0;
+    --muted:   #3a4560;
+    --accent:  #44aaff;
+    --mono:    "JetBrains Mono", "Fira Code", "Courier New", monospace;
+  }
+  * { box-sizing:border-box; margin:0; padding:0 }
+  html, body { background:var(--bg); color:var(--text); font-family:var(--mono);
+               font-size:13px; line-height:1.6 }
+  .page { max-width:1100px; margin:0 auto; padding:40px 24px }
+  .masthead { border-bottom:1px solid var(--border); padding-bottom:24px; margin-bottom:40px }
+  .masthead h1 { font-size:11px; letter-spacing:4px; color:var(--accent); font-weight:400;
+                  text-transform:uppercase; margin-bottom:6px }
+  .masthead h2 { font-size:22px; color:#dce6f5; font-weight:300; letter-spacing:1px }
+  .masthead p  { font-size:11px; color:var(--muted); margin-top:8px }
+  .doc-card    { background:var(--surface); border:1px solid var(--border);
+                  border-radius:4px; padding:28px; margin-bottom:32px }
+  .doc-header  { display:flex; justify-content:space-between; align-items:flex-start;
+                  margin-bottom:16px; flex-wrap:wrap; gap:12px }
+  .doc-name    { font-size:16px; color:#dce6f5; font-weight:500; margin-bottom:4px }
+  .doc-meta    { font-size:10px; color:var(--muted) }
+  .verdict-badge { border:1px solid; padding:6px 14px; border-radius:2px;
+                    font-size:12px; letter-spacing:1px; white-space:nowrap }
+  .validity-flags { margin:12px 0 20px; font-size:11px }
+  .two-col     { display:grid; grid-template-columns:1fr 1fr; gap:16px;
+                  margin-bottom:16px }
+  .panel       { background:var(--panel); border:1px solid var(--border);
+                  border-radius:2px; padding:16px }
+  .panel-title { font-size:9px; letter-spacing:3px; color:var(--muted);
+                  text-transform:uppercase; margin-bottom:14px }
+  .interpretive-note { font-size:10px; color:var(--muted); padding-top:12px;
+                         border-top:1px solid var(--border); margin-top:12px }
+  table { border-collapse:collapse }
+  @media (max-width:700px) { .two-col { grid-template-columns:1fr } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <h1>Recognitive Equation Framework  ·  v1.0</h1>
+    <h2>REF — Corpus Analysis: Uploaded Documents</h2>
+    <p>
+      F is RECOGNITIVE iff: Rec(F,Ψ₀) &gt; 0.45 · ℰ_F &lt; 0.55 · ℋ(T) &lt; 0.40 · C(T) &gt; 0.30
+      &nbsp;|&nbsp; Ψ = ψ₀ + ψ₁i + ψ₂j + ψ₃k ∈ ℍ⁴
+    </p>
+  </div>
+  
+<div class="doc-card" style="margin-bottom:40px">
+  <div class="panel-title" style="font-size:13px;margin-bottom:16px;letter-spacing:3px">
+    CORPUS COMPARISON — 7 DOCUMENTS RANKED
+  </div>
+  <table style="border-collapse:collapse;width:100%">
+    <tr style="color:#333;font-family:monospace;font-size:11px">
+      <th style="text-align:left;padding:4px 12px">#</th>
+      <th style="text-align:left;padding:4px 16px">Document</th>
+      <th style="text-align:left;padding:4px 12px">Verdict</th>
+      <th style="text-align:left;padding:4px 12px">Overall</th>
+      <th style="text-align:left;padding:4px 8px">Flags</th>
+      <th style="padding:4px 12px">Rec</th>
+      <th style="padding:4px 12px">1−ℰ</th>
+      <th style="padding:4px 12px">1−ℋ</th>
+      <th style="padding:4px 12px">C</th>
+    </tr>
+    <tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">1</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">Cognitive_Fidelity_Dynamics.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8881</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.942</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.964</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">1.000</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">2</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">The_Cosmic_Schematics.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8765</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.974</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.987</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.828</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.989</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">3</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">Sovereign_AI_Immune_System.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8702</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.885</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.955</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">1.000</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">4</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">The-Spark-Node-Protocol-10.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8650</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.844</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.985</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.847</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.988</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">5</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">Metaphysical_Cartography.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8625</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.945</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.968</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.823</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">6</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">AEON_Sentinel_Sovereign_Intelligenc</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8424</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.963</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.982</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.750</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.991</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:5px 12px">7</td>
+              <td style="color:#aaa;font-size:12px;padding:5px 16px">JEA1-Cognitive-Architecture.pdf</td>
+              <td style="color:#00ff88;font-family:monospace;padding:5px 12px">RECOGNITIVE</td>
+              <td style="color:#44aaff;font-family:monospace;font-weight:bold;padding:5px 12px">0.8047</td>
+              <td style="padding:5px 8px"><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span><span style="color:#00ff88;margin-right:4px">✓</span></td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.734</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.984</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.893</td>
+              <td style="color:#888;font-family:monospace;padding:5px 12px">0.916</td>
+            </tr>
+  </table>
+</div>
+  
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">AEON_Sentinel_Sovereign_Intelligence_2.pdf</div>
+      <div class="doc-meta">
+        575 words ·
+        1 pages ·
+        4 equations ·
+        3 headings ·
+        2 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.842]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9628</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="154" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9822</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="157" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.7500</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="120" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9907</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="158" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.2044</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="32" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.4540</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="72" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,33.0 35.3,85.7 74.7,158.5 156.6,174.1 125.6,104.9" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="33.0" r="4" fill="#00ff88"/><circle cx="35.3" cy="85.7" r="4" fill="#00ff88"/><circle cx="74.7" cy="158.5" r="4" fill="#00ff88"/><circle cx="156.6" cy="174.1" r="4" fill="#00ff88"/><circle cx="125.6" cy="104.9" r="4" fill="#ff3355"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.96</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.98</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.75</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.99</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff3355" font-weight="bold">0.20</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,12 670,13" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,12 670,10" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,70 670,70" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="12" r="3" fill="#00ff88"/><circle cx="670" cy="13" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="105" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#00ff88">-0.041</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="201" y="36" width="29" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ffcc00">-0.260</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="221" y="58" width="9" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.077</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="220" y="80" width="10" height="8" rx="1" fill="#ff8800"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#00ff88">-0.082</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.2861 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=0.000)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Imaginary: Behavioral intent and cognitive verification.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.967</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.981</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Synthesis: The resolved, higher-order topological truth.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.963</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.991</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Red Zone: High Complexity + Low Evidence = Speculative Code.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.959</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8424 overall ·
+    State displacement 0.2861 ·
+    τ=+0.000 ·
+    Ψ_final = [0.959, -0.260, -0.077, -0.082]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">Cognitive_Fidelity_Dynamics.pdf</div>
+      <div class="doc-meta">
+        361 words ·
+        1 pages ·
+        11 equations ·
+        0 headings ·
+        2 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.888]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9416</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="150" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9639</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="154" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">1.0000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="160" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">1.0000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="160" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.1355</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="21" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.3351</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="53" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,34.7 36.7,86.2 63.0,174.7 157.0,174.7 120.3,106.7" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="34.7" r="4" fill="#00ff88"/><circle cx="36.7" cy="86.2" r="4" fill="#00ff88"/><circle cx="63.0" cy="174.7" r="4" fill="#00ff88"/><circle cx="157.0" cy="174.7" r="4" fill="#00ff88"/><circle cx="120.3" cy="106.7" r="4" fill="#ff3355"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.94</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.96</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">1.00</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">1.00</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff3355" font-weight="bold">0.14</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,13 670,16" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,13 670,12" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,90 670,90" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="13" r="3" fill="#00ff88"/><circle cx="670" cy="16" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="101" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#00ff88">-0.079</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="188" y="36" width="42" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ffcc00">-0.374</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="229" y="58" width="1" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.004</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="218" y="80" width="12" height="8" rx="1" fill="#ff8800"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#00ff88">-0.108</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.3970 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=0.000)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8881 overall ·
+    State displacement 0.3970 ·
+    τ=+0.000 ·
+    Ψ_final = [0.921, -0.374, -0.004, -0.108]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">JEA1-Cognitive-Architecture.pdf</div>
+      <div class="doc-meta">
+        2,383 words ·
+        9 pages ·
+        27 equations ·
+        81 headings ·
+        7 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.805]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.7337</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="117" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9837</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="157" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8929</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="142" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9163</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="146" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.1136</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="18" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.0706</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="11" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,51.3 35.2,85.7 68.0,167.8 153.1,169.3 118.6,107.2" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="51.3" r="4" fill="#00ff88"/><circle cx="35.2" cy="85.7" r="4" fill="#00ff88"/><circle cx="68.0" cy="167.8" r="4" fill="#00ff88"/><circle cx="153.1" cy="169.3" r="4" fill="#00ff88"/><circle cx="118.6" cy="107.2" r="4" fill="#ff3355"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.73</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.98</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.89</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.92</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff3355" font-weight="bold">0.11</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,14 136,21 243,30 350,37 456,38 563,37 670,39" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,14 136,11 243,11 350,10 456,10 563,10 670,10" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,70 136,90 243,70 350,90 456,90 563,90 670,70" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="14" r="3" fill="#00ff88"/><circle cx="136" cy="21" r="3" fill="#00ff88"/><circle cx="243" cy="30" r="3" fill="#00ff88"/><circle cx="350" cy="37" r="3" fill="#ffcc00"/><circle cx="456" cy="38" r="3" fill="#ffcc00"/><circle cx="563" cy="37" r="3" fill="#ffcc00"/><circle cx="670" cy="39" r="3" fill="#ffcc00"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="69" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#ffcc00">-0.368</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="170" y="36" width="60" height="8" rx="1" fill="#ff3355"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ff3355">-0.537</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="228" y="58" width="2" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.013</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="168" y="80" width="62" height="8" rx="1" fill="#ff3355"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#ff3355">-0.559</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.8585 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=-0.009)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">EXECUTABLE SPECIFICATION AUDIT -READY ENGINEER HANDOFF</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.776</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.167</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.909</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Architecture Overview</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.783</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.167</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.920</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Perception Layer (Sensorium)</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.747</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Inference Layer (Judgment Core)</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Weighter, Occam Priorizer, and Complexity</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.747</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Judgment Layer</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Preference Module applies auditable value</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Action Layer (Executive Function)</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.745</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.167</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.947</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Preference Override is a declared feature, not a</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.755</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.083</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.927</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">2</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Truth–Complexity–Evidence Matrix</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.704</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.125</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.971</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8047 overall ·
+    State displacement 0.8585 ·
+    τ=-0.009 ·
+    Ψ_final = [0.632, -0.537, -0.013, -0.559]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">Metaphysical_Cartography.pdf</div>
+      <div class="doc-meta">
+        454 words ·
+        1 pages ·
+        0 equations ·
+        1 headings ·
+        2 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.862]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9454</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="151" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9676</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="154" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8233</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="131" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">1.0000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="160" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.3000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="48" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.2750</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="44" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,34.4 36.4,86.1 71.3,163.3 157.0,174.7 132.8,102.6" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="34.4" r="4" fill="#00ff88"/><circle cx="36.4" cy="86.1" r="4" fill="#00ff88"/><circle cx="71.3" cy="163.3" r="4" fill="#00ff88"/><circle cx="157.0" cy="174.7" r="4" fill="#00ff88"/><circle cx="132.8" cy="102.6" r="4" fill="#ff8800"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.95</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.97</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.82</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">1.00</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff8800" font-weight="bold">0.30</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,13 670,15" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,13 670,12" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,68 670,83" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="13" r="3" fill="#00ff88"/><circle cx="670" cy="15" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="90" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#00ff88">-0.179</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="205" y="36" width="25" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ffcc00">-0.226</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="213" y="58" width="17" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.150</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="210" y="80" width="20" height="8" rx="1" fill="#ff8800"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#00ff88">-0.180</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.3713 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=-0.072)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Stage 2: Return to Stillness. Stage 3: Ultimate Recognition.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.945</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.177</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8625 overall ·
+    State displacement 0.3713 ·
+    τ=-0.072 ·
+    Ψ_final = [0.821, -0.226, -0.150, -0.180]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">Sovereign_AI_Immune_System.pdf</div>
+      <div class="doc-meta">
+        463 words ·
+        1 pages ·
+        0 equations ·
+        2 headings ·
+        2 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.870]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8851</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="141" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9553</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="152" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">1.0000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="160" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">1.0000</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="160" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.1229</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="19" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.0955</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="15" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,39.2 37.3,86.4 63.0,174.7 157.0,174.7 119.4,107.0" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="39.2" r="4" fill="#00ff88"/><circle cx="37.3" cy="86.4" r="4" fill="#00ff88"/><circle cx="63.0" cy="174.7" r="4" fill="#00ff88"/><circle cx="157.0" cy="174.7" r="4" fill="#00ff88"/><circle cx="119.4" cy="107.0" r="4" fill="#ff3355"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.89</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.96</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">1.00</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">1.00</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff3355" font-weight="bold">0.12</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,15 670,22" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,15 670,11" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,90 670,90" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="15" r="3" fill="#00ff88"/><circle cx="670" cy="22" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="92" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#00ff88">-0.160</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="191" y="36" width="39" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ffcc00">-0.353</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="213" y="58" width="17" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.148</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="187" y="80" width="43" height="8" rx="1" fill="#ff8800"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#ffcc00">-0.384</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.5649 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=0.000)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Ethos Aegis: The Sovereign Integrity Mesh for AI.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.885</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.000</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">LogosScythe (T-Lymphocyte): The Semantic Arbiter.</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8702 overall ·
+    State displacement 0.5649 ·
+    τ=+0.000 ·
+    Ψ_final = [0.840, -0.353, -0.148, -0.384]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">The-Spark-Node-Protocol-10.pdf</div>
+      <div class="doc-meta">
+        1,811 words ·
+        10 pages ·
+        5 equations ·
+        46 headings ·
+        6 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.865]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8439</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="135" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9847</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="157" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8474</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="135" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9885</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="158" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.4793</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="76" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff3355;padding:4px 10px">0.1400</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="22" height="10" rx="2" fill="#ff3355" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,42.5 35.1,85.7 70.2,164.8 156.5,174.0 146.5,98.2" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="42.5" r="4" fill="#00ff88"/><circle cx="35.1" cy="85.7" r="4" fill="#00ff88"/><circle cx="70.2" cy="164.8" r="4" fill="#00ff88"/><circle cx="156.5" cy="174.0" r="4" fill="#00ff88"/><circle cx="146.5" cy="98.2" r="4" fill="#ff8800"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.84</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.98</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.85</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.99</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff8800" font-weight="bold">0.48</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,13 158,18 286,21 414,25 542,30 670,24" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,13 158,11 286,10 414,10 542,10 670,10" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,81 158,72 286,76 414,76 542,90 670,70" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="13" r="3" fill="#00ff88"/><circle cx="158" cy="18" r="3" fill="#00ff88"/><circle cx="286" cy="21" r="3" fill="#00ff88"/><circle cx="414" cy="25" r="3" fill="#00ff88"/><circle cx="542" cy="30" r="3" fill="#00ff88"/><circle cx="670" cy="24" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="75" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#ffcc00">-0.310</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="225" y="36" width="5" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#00ff88">-0.038</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="207" y="58" width="23" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#ffcc00">-0.206</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="180" y="80" width="50" height="8" rx="1" fill="#ff3355"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#ff3355">-0.448</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.5835 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=-0.006)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Spark Node: Protocol 1.0</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.851</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.053</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.995</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Problem: Cognitive Drift</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Theft</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Identity replaced by curated persona</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Dreams exiled by digital noise</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Memory reconstruction through ritual</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">1</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Wildness remembered and restored</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">2</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Pause. — Silence.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.958</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.106</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">2</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Stop the momentum. Interrupt</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.888</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.219</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.979</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">2</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Widen attention. Don't label or</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8650 overall ·
+    State displacement 0.5835 ·
+    τ=-0.006 ·
+    Ψ_final = [0.690, -0.038, -0.206, -0.448]
+  </div>
+</div>
+<div class="doc-card">
+  <div class="doc-header">
+    <div>
+      <div class="doc-name">The_Cosmic_Schematics.pdf</div>
+      <div class="doc-meta">
+        589 words ·
+        1 pages ·
+        0 equations ·
+        5 headings ·
+        2 chunks
+      </div>
+    </div>
+    <div class="verdict-badge" style="color:#00ff88;border-color:#00ff88">
+      ✦ RECOGNITIVE [0.876]
+    </div>
+  </div>
+
+  <div class="validity-flags"><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ Rec>0.45</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℰ<0.55</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ ℋ<0.40</span><span style="color:#00ff88;margin-right:16px;font-family:monospace">✓ C>0.30</span></div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">OPERATOR SCORES</div>
+      <table style="border-collapse:collapse;width:100%">
+        <tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Recognition</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">Rec</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9740</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="155" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Semantic alignment with S₀</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Fidelity</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">1−ℰ</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9875</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="157" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">State preservation (1 = no distortion)</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Egalitarian</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">E_g</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.8281</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="132" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">1 − hierarchy penalty</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Concision</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">C</td>
+              <td style="font-family:monospace;color:#00ff88;padding:4px 10px">0.9894</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="158" height="10" rx="2" fill="#00ff88" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">I(T) / L(T) — info density</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Grounding</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₁</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.3077</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="49" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Physical reality anchor</td>
+            </tr><tr>
+              <td style="color:#888;font-family:monospace;padding:4px 10px 4px 0">Affect</td>
+              <td style="color:#555;font-family:monospace;padding:4px 6px">ψ₃</td>
+              <td style="font-family:monospace;color:#ff8800;padding:4px 10px">0.4032</td>
+              <td style="padding:4px 10px"><svg width="160" height="10" style="vertical-align:middle">
+  <rect width="160" height="10" rx="2" fill="#1a1a2e"/>
+  <rect width="64" height="10" rx="2" fill="#ff8800" opacity="0.85"/>
+</svg></td>
+              <td style="color:#444;font-size:11px;padding:4px 0">Affective valence residual</td>
+            </tr>
+      </table>
+    </div>
+    <div class="panel" style="text-align:center">
+      <div class="panel-title">RECOGNITIVE RADAR</div>
+      <svg width="220" height="220" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="110.0,90.0 91.0,103.8 98.2,126.2 121.8,126.2 129.0,103.8" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,70.0 72.0,97.6 86.5,142.4 133.5,142.4 148.0,97.6" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,50.0 52.9,91.5 74.7,158.5 145.3,158.5 167.1,91.5" fill="none" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,30.0 33.9,85.3 63.0,174.7 157.0,174.7 186.1,85.3" fill="none" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="110.0" y2="30.0" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="33.9" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="63.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="157.0" y2="174.7" stroke="#1e2a4a" stroke-width="1"/><line x1="110" y1="110" x2="186.1" y2="85.3" stroke="#1e2a4a" stroke-width="1"/><polygon points="110.0,32.1 34.9,85.6 71.1,163.6 156.5,174.0 133.4,102.4" fill="#0044ff" fill-opacity="0.2" stroke="#44aaff" stroke-width="1.5"/><circle cx="110.0" cy="32.1" r="4" fill="#00ff88"/><circle cx="34.9" cy="85.6" r="4" fill="#00ff88"/><circle cx="71.1" cy="163.6" r="4" fill="#00ff88"/><circle cx="156.5" cy="174.0" r="4" fill="#00ff88"/><circle cx="133.4" cy="102.4" r="4" fill="#ff8800"/><text x="110.0" y="12.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#888">Recognition</text><text x="110.0" y="25.0" text-anchor="middle" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.97</text><text x="16.8" y="79.7" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Fidelity</text><text x="16.8" y="92.7" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.99</text><text x="52.4" y="189.3" text-anchor="end" font-family="monospace" font-size="10" fill="#888">Egalitarian</text><text x="52.4" y="202.3" text-anchor="end" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.83</text><text x="167.6" y="189.3" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Concision</text><text x="167.6" y="202.3" text-anchor="start" font-family="monospace" font-size="10" fill="#00ff88" font-weight="bold">0.99</text><text x="203.2" y="79.7" text-anchor="start" font-family="monospace" font-size="10" fill="#888">Grounding</text><text x="203.2" y="92.7" text-anchor="start" font-family="monospace" font-size="10" fill="#ff8800" font-weight="bold">0.31</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">CHUNK TIMELINE — Recognition · Distortion · Hierarchy</div>
+    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+  <line x1="30" y1="70" x2="670" y2="70" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="74" font-family="monospace" font-size="8" fill="#333">0.25</text><line x1="30" y1="50" x2="670" y2="50" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="54" font-family="monospace" font-size="8" fill="#333">0.50</text><line x1="30" y1="30" x2="670" y2="30" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="34" font-family="monospace" font-size="8" fill="#333">0.75</text><line x1="30" y1="10" x2="670" y2="10" stroke="#1a1a2e" stroke-width="1"/><text x="4" y="14" font-family="monospace" font-size="8" fill="#333">1.00</text><polyline points="30,10 670,13" fill="none" stroke="#44aaff" stroke-width="1.5" stroke-linejoin="round"/><polyline points="30,10 670,11" fill="none" stroke="#ff3355" stroke-width="1" stroke-dasharray="3,2" stroke-linejoin="round"/><polyline points="30,70 670,82" fill="none" stroke="#ff8800" stroke-width="1" stroke-linejoin="round"/><circle cx="30" cy="10" r="3" fill="#00ff88"/><circle cx="670" cy="13" r="3" fill="#00ff88"/><text x="30" y="98" font-family="monospace" font-size="9" fill="#44aaff">─ Recognition</text><text x="130" y="98" font-family="monospace" font-size="9" fill="#ff3355">- - Distortion</text><text x="240" y="98" font-family="monospace" font-size="9" fill="#ff8800">─ Hierarchy</text>
+</svg>
+  </div>
+
+  <div class="two-col">
+    <div class="panel">
+      <div class="panel-title">QUATERNION STATE Ψ ∈ ℍ⁴</div>
+      <svg width="400" height="108" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="22" font-family="monospace" font-size="10" fill="#888">ψ₀ Executive</text><rect x="120" y="10" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="10" x2="230" y2="26" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="12" width="110" height="12" rx="1" fill="#00ff88" opacity="0.35"/><rect x="230" y="14" width="94" height="8" rx="1" fill="#00ff88"/><text x="350" y="22" font-family="monospace" font-size="10" fill="#00ff88">-0.141</text><text x="0" y="44" font-family="monospace" font-size="10" fill="#888">ψ₁ Grounding</text><rect x="120" y="32" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="32" x2="230" y2="48" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="34" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="207" y="36" width="23" height="8" rx="1" fill="#ff8800"/><text x="350" y="44" font-family="monospace" font-size="10" fill="#ffcc00">-0.202</text><text x="0" y="66" font-family="monospace" font-size="10" fill="#888">ψ₂ Memory</text><rect x="120" y="54" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="54" x2="230" y2="70" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="56" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="216" y="58" width="14" height="8" rx="1" fill="#ff8800"/><text x="350" y="66" font-family="monospace" font-size="10" fill="#00ff88">-0.126</text><text x="0" y="88" font-family="monospace" font-size="10" fill="#888">ψ₃ Affect</text><rect x="120" y="76" width="220" height="16" rx="2" fill="#0d1117"/><line x1="230" y1="76" x2="230" y2="92" stroke="#1e2a4a" stroke-width="1"/><rect x="230" y="78" width="0" height="12" rx="1" fill="#ffcc00" opacity="0.35"/><rect x="218" y="80" width="12" height="8" rx="1" fill="#ff8800"/><text x="350" y="88" font-family="monospace" font-size="10" fill="#00ff88">-0.106</text>
+</svg>
+      <div style="font-family:monospace;font-size:10px;color:#444;margin-top:8px">
+        ∥ΔΨ∥ = 0.2962 ·
+        Temporal: <span style="color:#888">PRESENT-ANCHORED</span> (τ=-0.012)
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-title">SECTION ANALYSIS</div>
+      <table style="border-collapse:collapse;width:100%;font-size:11px">
+        <tr style="color:#333;font-family:monospace">
+          <th style="text-align:left;padding:2px 8px">pg</th>
+          <th style="text-align:left;padding:2px 12px">Section</th>
+          <th style="padding:2px 8px">Rec</th>
+          <th style="padding:2px 8px">Hier</th>
+          <th style="padding:2px 8px">Conc</th>
+        </tr>
+        <tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">The Architecture of Human Consciousness.</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Population Share: approximately 85 percent.</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Consciousness terminates permanently at physical death.</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Step 1: Notice an emotion arising in awareness.</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+              <td style="color:#ffcc00;font-family:monospace;padding:3px 8px">0.500</td>
+            </tr><tr>
+              <td style="color:#555;font-family:monospace;padding:3px 8px">0</td>
+              <td style="color:#aaa;font-size:11px;padding:3px 12px">Your Mission is a Cosmic Rescue, Not Mass Conversion.</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.991</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">0.250</td>
+              <td style="color:#00ff88;font-family:monospace;padding:3px 8px">1.000</td>
+            </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="interpretive-note">
+    <span style="color:#333">◈</span>
+    0.8765 overall ·
+    State displacement 0.2962 ·
+    τ=-0.012 ·
+    Ψ_final = [0.859, -0.202, -0.126, -0.106]
+  </div>
+</div>
+</div>
+</body>
+</html>

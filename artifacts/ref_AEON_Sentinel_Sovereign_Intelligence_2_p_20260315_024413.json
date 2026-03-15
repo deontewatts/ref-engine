@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "framework": "Recognitive Equation Framework v1.0",
+    "timestamp": "2026-03-15T02:44:14.713570Z",
+    "document": "AEON_Sentinel_Sovereign_Intelligence_2.pdf"
+  },
+  "document_stats": {
+    "word_count": 575,
+    "page_count": 1,
+    "equation_count": 4,
+    "heading_count": 3,
+    "chunk_count": 2
+  },
+  "verdict": {
+    "label": "RECOGNITIVE",
+    "code": 1,
+    "overall": 0.8424,
+    "flags": {
+      "recognition_ok": true,
+      "fidelity_ok": true,
+      "hierarchy_ok": true,
+      "concision_ok": true
+    }
+  },
+  "operator_scores": {
+    "recognition": 0.9628,
+    "fidelity_dist": 0.0178,
+    "hierarchy": 0.25,
+    "concision": 0.9907,
+    "egalitarian": 0.3398,
+    "affect": 0.454,
+    "grounding": 0.2044,
+    "temporal_tau": 0.0
+  },
+  "radar": {
+    "Recognition": 0.9628,
+    "Fidelity": 0.9822,
+    "Egalitarian": 0.75,
+    "Concision": 0.9907,
+    "Grounding": 0.2044
+  },
+  "quaternion_state": {
+    "initial": {
+      "psi0": 1.0,
+      "psi1": 0.0,
+      "psi2": 0.0,
+      "psi3": 0.0
+    },
+    "final": {
+      "psi0": 0.9591,
+      "psi1": -0.2597,
+      "psi2": -0.0769,
+      "psi3": -0.0823
+    },
+    "displacement": 0.2861
+  },
+  "section_summary": [
+    {
+      "heading": "The Real: Hardware-level attestation (TPM/Enclaves).",
+      "page": 0,
+      "words": 92,
+      "recognition": 0.9665006029781508,
+      "hierarchy": 0.25,
+      "concision": 0.9813189888360739
+    },
+    {
+      "heading": "Synthesis: The resolved, higher-order topological truth.",
+      "page": 0,
+      "words": 55,
+      "recognition": 0.9627935164042976,
+      "hierarchy": 0.25,
+      "concision": 0.9906594944180369
+    },
+    {
+      "heading": "Red Zone: High Complexity + Low Evidence = Speculative Code.",
+      "page": 0,
+      "words": 176,
+      "recognition": 0.9590864298304442,
+      "hierarchy": 0.25,
+      "concision": 1.0
+    }
+  ],
+  "chunk_detail": [
+    {
+      "idx": 0,
+      "recognition": 0.9665,
+      "fidelity": 0.0335,
+      "hierarchy": 0.25,
+      "concision": 0.9813,
+      "egalitarian": 0.3916,
+      "temporal": 0.0,
+      "synthetic_p": 0.5224,
+      "preview": "The AEON Sentinel: Sovereign Intelligence for High-Stakes Architectures. In a world of deepfakes and"
+    },
+    {
+      "idx": 1,
+      "recognition": 0.9591,
+      "fidelity": 0.0022,
+      "hierarchy": 0.25,
+      "concision": 1.0,
+      "egalitarian": 0.2881,
+      "temporal": 0.0,
+      "synthetic_p": 0.4273,
+      "preview": "Adversarial Dissent Lenses deploy a Socratic Assassin to falsify logic. Utilizing Analog Cunningham'"
+    }
+  ],
+  "comparative_note": "Document passes all four validity criteria (overall=0.842). It functions as a bounded recognitive operator — moving interpreter state toward coherence with minimal distortion."
+}
